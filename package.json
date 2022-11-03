@@ -1,0 +1,28 @@
+{
+  "name": "flower-shop",
+  "version": "1.0.0",
+  "description": "flower-shop",
+  "main": "scripts/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D1man19/flower-shop.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Shapovalov Dmytro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D1man19/flower-shop/issues"
+  },
+  "homepage": "https://github.com/D1man19/flower-shop#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "serve": "^14.0.1"
+  }
+}
