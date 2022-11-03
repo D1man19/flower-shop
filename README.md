@@ -3,7 +3,6 @@ HTML, CSS, JS
 
 ## Setup
 To use this project as is, first clone the repo from Github, then run:
-
 $ cd flower-shop
 $ npm install
 $ npm run serve
