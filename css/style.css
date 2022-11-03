@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A9BFE4;
+    
+}
+
+.header img {
+    margin: 8px 64px;
+}
+
+.nav {
+    margin-right: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__item {
+    margin-left: 64px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav__item:hover {
+    font-weight: bold;
+    border-bottom-color: white;
+}
+
+.main-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0 35px 70px;
+
+}
+
+.main-text p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main-photo-mobile {
+    display: none;
+}
+
+.bouquet-list {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bouquet-list div {
+    width: 280px;
+    height: 215px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bouquets {
+    background-image: url('../images/bouquets.jpg');
+}
+
+.natural-flowers {
+    background-image: url('../images/natural_flowers.jpg');
+}
+
+.own-bouquet {
+    background-image: url('../images/own_bouquet.png');
+}
+
+.btn-bouquet {
+    margin-bottom: 10px;
+    color: white;
+    background-color: #A9BFE4;
+    width: 140px;
+    height: 35px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.25s;
+}
+
+.btn-bouquet:hover {
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.about-us-description {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 60px auto 0;
+}
+
+.title-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.working-for-you {
+    background-color: rgba(152, 158, 195, 0.3);
+}
+
+.title {
+    font-size: 18px;
+    color: #989EC3;
+    margin-left: 60px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px 0;
+}
+
+.item__photo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 90px;
+}
+
+.item__description {
+    text-align: center;
+    font-size: 14px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger {
+    display: none;
+}
+
+.burger__bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+}
+
+.catalogue-wrapper {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogue__title {
+    margin-left: 64px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 0px 4px 8px #FFC2C7;
+    transition: box-shadow 0.25s, transform 0.25s;
+
+}
+
+.card:hover {
+    box-shadow: 0px 4px 8px #ACACAC;
+    cursor: pointer;
+    transform: scaleX(1.05) scaleY(1.05);
+}
+
+.card__description {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    /* line-height: 1.5; */
+}
+
+.reviews {
+    background: rgba(169, 191, 228, 0.2);
+}
+
+.reviews-wrapper {
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 50%;
+}
+
+.reviews__title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.reviews__item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px #ACACAC;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.reviews__name {
+    color: #989EC3;
+    font-weight: 600;
+
+}
+
+.reviews__text {
+    display: block;
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+.form-wrapper {
+    padding-top: 20px;
+}
+
+.form-title {
+    font-size: 20px;
+}
+
+.inp-name {
+    width: 100%;
+    height: 35px;
+    border: none;
+    padding: 5px 20px;
+
+}
+
+.txtarea-review {
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+    border: none;
+    resize: none;
+    padding: 5px 20px;
+}
+
+.btn-send {
+    background: #FFC2C7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border: none;
+}
+
+.btn-send:hover {
+    background: #A9BFE4;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #A9BFE4;
+    padding: 20px 100px;
+    color: white;
+
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    margin-bottom: 50px;
+}
+
+.footer__title {
+    font-size: 20px;
+    font-family: 'Lora';
+    font-weight: 600;
+}
+
+.footer__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer__text,
+.footer__list a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__list a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+}
+
+.footer__list a:hover {
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: row-reverse;
+    }
+
+    .variants-of-bouquets {
+        display: block;
+        width: 100%;
+
+    }
+
+    .nav {
+        padding: 16px;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        /*height: fit-content;*/
+    }
+
+    .nav .nav__item {
+        display: none;
+    }
+
+    .nav.open .nav__item {
+        display: inline;
+        margin-left: 0;
+        padding-top: 5px;
+    }
+
+    .burger {
+        display: inline-block;
+    }
+
+    .main-offer {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 35px 70px;
+    }
+
+    .main-text {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .main-photo {
+        display: none;
+    }
+
+    .main-photo-mobile {
+        display: inline;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .bouquet-list {
+        flex-direction: column;
+    }
+
+    .bouquet-list div {
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .about-us-description {
+        flex-direction: column;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .photo-wrapper {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .women {
+        width: 100%;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .wrapper__item {
+        width: 50%;
+    }
+
+    .reviews-wrapper {
+        width: 75%;
+    }
+
+    .footer__wrapper {
+        order: 1;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .footer__logo {
+        margin-bottom: 0;
+        align-self: center;
+    }
+
+}

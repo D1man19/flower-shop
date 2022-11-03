@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/javascript" src="scripts/app.js"></script>
+    <title>Квіти</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="images/logo.png" alt="flower" width="136px" height="55px" class="main-logo">
+            <nav class="nav" id="nav">
+                <div class="burger" onclick="toggleMobileMenu()">
+                    <div class="burger__bar"></div>
+                    <div class="burger__bar"></div>
+                    <div class="burger__bar"></div>
+                </div>
+                <a href="#catalogue" class="nav__item">Каталог</a>
+                <a href="#about-us-description" class="nav__item">Про нас</a>
+                <a href="#bouquet-list" class="nav__item">Збери букет</a>
+                <a href="#footer" class="nav__item">Контакти</a>
+            </nav>
+        </header>
+        <main class="content">
+            <article class="main-offer">
+                <div class="main-text">
+                    <p>Букет із кущових троянд
+                        “Довгоочікуване щастя”</p>
+                    <span>Ніжний та витончений шик у букеті з троянд - гарний вибір для коханої
+                        людини</span>
+                </div>
+                <img src="images/bg_web-no-background.png" alt="Roses" class="main-photo">
+                <img src="images/bg_mob-no-background.png" alt="Roses" class="main-photo-mobile">
+            </article>
+            <article class="about-us">
+                <section class="bouquet-list" id="bouquet-list">
+                    <div class="bouquets">
+                        <a href="#"><button class="btn-bouquet">Букети</button></a>
+                    </div>
+                    <div class="natural-flowers">
+                        <a href="#"><button class="btn-bouquet">Живі квіти</button></a>
+                    </div>
+                    <div class="own-bouquet">
+                        <a href="#"><button class="btn-bouquet">"Свій" букет</button></a>
+                    </div>
+                </section>
+                <section class="about-us-description" id="about-us-description">
+                    <div class="text-wrapper">
+                        <p class="title-text">Про нас</p>
+                        <div class="description-text">
+                            <p>Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі
+                                розбігаються від такого достатку.
+                            </p>
+                            <p>Тут представлена і багата колекція кімнатних рослин: кактуси різної форми та величини,
+                                ніжні фіалки, усипані квітами, аспарагуси, фікуси.</p>
+                        </div>
+                    </div>
+                    <div class="photo-wrapper">
+                        <img src="images/women.png" alt="women" class="women" width="450px">
+                    </div>
+                </section>
+            </article>
+            <section class="working-for-you">
+                <span class="title">Працюємо для вас</span>
+                <div class="wrapper">
+                    <div class="wrapper__item">
+                        <img class="item__photo" src="images/constructor.png">
+                        <p class="item__description">Конструктор унікального букета</p>
+                    </div>
+                    <div class="wrapper__item">
+                        <img class="item__photo" src="images/delivery.png">
+                        <p class="item__description">Безкоштовна доставка по місту до 2-х годин</p>
+                    </div>
+                    <div class="wrapper__item">
+                        <img class="item__photo" src="images/indoor.png">
+                        <p class="item__description">Наявність кімнатних рослин</p>
+                    </div>
+                    <div class="wrapper__item">
+                        <img class="item__photo" src="images/for_loved_ones.png">
+                        <p class="item__description">Вибір квітів для коханих, мам та друзів</p>
+                    </div>
+                </div>
+            </section>
+            <section class="catalogue" id="catalogue">
+                <div class="catalogue-wrapper">
+                    <h2 class="catalogue__title">Каталог</h2>
+                    <div class="products" id="products">
+
+                    </div>
+                </div>
+            </section>
+            <section class="reviews">
+                <div class="reviews-wrapper">
+                    <div class="reviews-block" id="reviews-block">
+                        <span class="reviews__title">Відгуки</span>
+                    </div>
+                    <div class="form-wrapper">
+                        <p class="form-title">Додати відгук:</p>
+                        <form class="review-form" id="review-form">
+                            <input class="inp-name" id="inp-name" type="text" placeholder="Ваше ім'я">
+                            <textarea class="txtarea-review" id="txtarea-review" placeholder="Ваш відгук"></textarea>
+                            <button class="btn-send" id="btn-send" type="submit">Відправити</button>
+                            <!-- <input class="btn-send" id="btn-send" type="button" value="Відправити"> -->
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer__wrapper">
+                <img src="images/logo.png" alt="flower" width="140px" class="footer__logo">
+                <span class="footer__copy">Copyright Ⓒ 2022</span>
+            </div>
+            <div class="footer__item">
+                <header class="footer__header">
+                    <span class="footer__title">Контакти</span>
+                </header>
+                <ul class="footer__list">
+                    <li class="footer__elem"><span class="footer__text">(095) 000 00 00</span></li>
+                    <li class="footer__elem"><span class="footer__text">(097) 000 00 00</span></li>
+                    <li class="footer__elem"><span class="footer__text">Ми працюємо цілодобово</span></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <header class="footer__header">
+                    <span class="footer__title">Інформація</span>
+                </header>
+                <ul class="footer__list">
+                    <li class="footer__elem"><a href="#">Про нас</a></li>
+                    <li class="footer__elem"><a href="#">Хіт продажу</a></li>
+                    <li class="footer__elem"><a href="#">Відгуки</a></li>
+                    <li class="footer__elem"><a href="#">Доставка і оплата</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <header class="footer__header">
+                    <span class="footer__title">Каталог</span>
+                </header>
+                <ul class="footer__list">
+                    <li class="footer__elem"><a href="#">Збери свій букет</a></li>
+                    <li class="footer__elem"><a href="#">Живі квіти</a></li>
+                    <li class="footer__elem"><a href="#">Кімнатні рослини</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+    </div>
+    <script>
+        const nav = document.getElementById('nav');
+
+        function toggleMobileMenu() {
+            nav.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
